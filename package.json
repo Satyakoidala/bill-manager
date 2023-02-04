@@ -1,11 +1,10 @@
 {
-	"name": "create-react-app-without-cra",
-	"version": "1.0.1",
-	"description": "Setup demo for creating react application without using CRA or any other framework",
-	"private": true,
+	"name": "billing-manager",
+	"version": "0.0.0",
+	"description": "Personal billing manager for monthly expenses and cash inflows.",
 	"scripts": {
 		"start": "npm run build && webpack serve",
-		"build": "webpack --mode development",
+		"build": "npm run lint && webpack --mode development",
 		"lint": "npm run lint:js && npm run lint:css",
 		"lint:js": "eslint src/**/*.js",
 		"lint:css": "stylelint src/**/*.scss",
@@ -13,19 +12,18 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Satyakoidala/create-react-app-demo-without-CRA.git"
+		"url": "git+https://github.com/Satyakoidala/bill-manager.git"
 	},
 	"keywords": [
-		"react-startup-template",
+		"bill-manager",
 		"initial-setup",
 		"no-cra"
 	],
 	"author": "Koidala Veera Venkata Satya Sai",
-	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Satyakoidala/create-react-app-demo-without-CRA/issues"
+		"url": "https://github.com/Satyakoidala/bill-manager.git/issues"
 	},
-	"homepage": "https://github.com/Satyakoidala/create-react-app-demo-without-CRA#readme",
+	"homepage": "https://github.com/Satyakoidala/bill-manager.git#readme",
 	"devDependencies": {
 		"@babel/cli": "^7.19.3",
 		"@babel/core": "^7.20.2",

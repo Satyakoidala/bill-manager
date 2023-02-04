@@ -65,7 +65,7 @@ module.exports = {
 			filename: "debug_[name]_[contenthash].css",
 		}),
 		new HTMLWebpackPlugin({
-			title: "React App",
+			title: "Bill Manager",
 			filename: "index.html",
 			template: "src/pages/homepage.html",
 		}),

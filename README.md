@@ -1,3 +1,3 @@
-# create-react-app-demo-without-CRA
+# Bill Manager
 
-Setup demo for creating react application without using CRA or any other framework.
+Personal billing manager for monthly expenses and cash inflows.
