@@ -1,0 +1,21 @@
+.round-viewer {
+	.round {
+		width: auto;
+		max-width: 60px;
+		border: 0.85em solid rgb(30 179 90);
+		border-radius: 50%;
+		padding: 50px;
+		display: inline-block;
+
+		.price {
+			line-height: 1.5em;
+			font-weight: 600;
+			font-size: 24px;
+		}
+	}
+
+	.display-title {
+		font-size: 32px;
+		font-weight: 600;
+	}
+}

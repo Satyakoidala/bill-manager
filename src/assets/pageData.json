@@ -1,0 +1,62 @@
+{
+	"data": {
+		"creditData": {
+			"credit": "40000",
+			"creditAcquisitions": []
+		},
+		"debitData": {
+			"debit": "25000",
+			"debitAcquisitions": []
+		},
+		"ledgerData": {
+			"title": "Monthly Transactions",
+			"tableHeaders": [
+				"Transaction_ID",
+				"From/Through",
+				"To",
+				"Type",
+				"Amount",
+				"CreditorDebit",
+				"DateTime"
+			],
+			"tableData": [
+				{
+					"Transaction_ID": "alsagvklas",
+					"From/Through": "Bank Account",
+					"To": "Cash Account",
+					"Type": "Withdrwal",
+					"Amount": "5000",
+					"CreditorDebit": "NA",
+					"DateTime": "05-02-2023:18:20:33"
+				},
+				{
+					"Transaction_ID": "alsagvklas",
+					"From/Through": "Cash Account",
+					"To": "Bank Account",
+					"Type": "Deposit",
+					"Amount": "10000",
+					"CreditorDebit": "NA",
+					"DateTime": "05-02-2023:18:22:33"
+				},
+				{
+					"Transaction_ID": "alsa8gvklas",
+					"From/Through": "Bank Account",
+					"To": "Reshu",
+					"Type": "Cash",
+					"Amount": "500",
+					"CreditorDebit": "Debit",
+					"DateTime": "05-02-2023:18:23:33"
+				},
+				{
+					"Transaction_ID": "alsa8gvklas",
+					"From/Through": "Sai",
+					"To": "Bank Account",
+					"Type": "Online",
+					"Amount": "10000",
+					"CreditorDebit": "Credit",
+					"DateTime": "05-02-2023:18:24:33"
+				}
+			]
+		}
+	}
+}

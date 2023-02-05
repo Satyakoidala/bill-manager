@@ -14,5 +14,8 @@ module.exports = {
 		"react/jsx-filename-extension": "off",
 		"react/function-component-definition": "off",
 		"arrow-body-style": "off",
+		"react/prop-types": "off",
+		"no-unused-vars": "warn",
+		"react/no-array-index-key": "off",
 	},
 };

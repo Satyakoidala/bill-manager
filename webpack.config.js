@@ -20,7 +20,7 @@ module.exports = {
 			directory: path.resolve(__dirname, "dist"),
 		},
 		open: true,
-		hot: true,
+		hot: false,
 		compress: true,
 		historyApiFallback: true,
 		liveReload: true,
