@@ -7,6 +7,4 @@ build/
 
 .vscode
 .husky
-
 .eslintcache
-package-lock.json
