@@ -5,7 +5,6 @@ import "./App.scss";
 import pageData from "./assets/pageData.json";
 
 const App = () => {
-	console.log(pageData);
 	return (
 		<>
 			<h1 className="header">
