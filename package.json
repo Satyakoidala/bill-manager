@@ -9,7 +9,8 @@
 		"lint:js": "eslint src/**/*.js",
 		"lint:css": "stylelint src/**/*.scss",
 		"test": "test",
-		"clean": "rm -rf dist/ node_modules/"
+		"clean": "rm -rf package-lock.json dist/ node_modules/",
+		"ci": "npm run lint && webpack"
 	},
 	"repository": {
 		"type": "git",
@@ -61,5 +62,9 @@
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
+	},
+	"engines": {
+		"node": "14.x",
+		"npm": "8.x"
 	}
 }

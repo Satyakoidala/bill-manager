@@ -17,5 +17,6 @@ module.exports = {
 		"react/prop-types": "off",
 		"no-unused-vars": "warn",
 		"react/no-array-index-key": "off",
+		"import/no-unresolved": "off",
 	},
 };
