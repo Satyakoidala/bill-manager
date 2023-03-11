@@ -1,0 +1,25 @@
+name: CI pipeline for Bill Manager
+
+on:
+    push:
+        branches: ["develop"]
+    pull_request:
+        branches: ["develop"]
+
+jobs:
+    build:
+        runs-on: ${{ matrix.os }}
+
+        strategy:
+            matrix:
+                os: [ubuntu-latest, windows-latest, macOS-latest]
+                node-version: [14.x]
+
+        steps:
+            - uses: actions/checkout@v3
+            - name: Setup Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  cache: "npm"
+            - run: npm ci
