@@ -9,3 +9,4 @@ build/
 .husky
 
 .eslintcache
+package-lock.json
